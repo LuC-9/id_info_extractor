@@ -1,0 +1,24 @@
+===================================================================
+Requirements(and how to install):
+
+pytesseract > pip install pytesseract
+cv2 > pip install opencv-python
+requests > pip install requests
+numpy > pip install numpy
+PIL > pip install pillow
+ftfy > pip install ftfy
+
+Also, download and install tesseract-ocr(alpha) from https://github.com/UB-Mannheim/tesseract/wiki
+copy and paste tesseract address into id_extractor_info.py
+
+===================================================================
+HOW TO RUN:
+
+1. Unzip the files
+2. Open command line
+3. Navigate to project folder
+4. Run the program using the code>> id_info_extractor.py url_address
+5. The text output is in the output.txt file
+6. JSON output is in the info.json file.
+It contains name, pan number, father's name, dob, idtype in case of PAN Card
+and name, adhaar number, date of birth, sex, idtype in case of Adhaar Card
